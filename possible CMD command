@@ -1,0 +1,10 @@
+EDEM
+
+have the program use CMD to create the token needed to autoaccess the blog. 
+
+have it reconize what to publish via format styles, EG. #Push this, !not this
+
+this can be done via javasript. 
+ 
+curl -u "your_login:your_token" \
+    https://api.github.com/repos/user/repo
